@@ -3,7 +3,12 @@ nav {
   line-height: 50px;
 }
 
+nav a {
+  font-size: 20px;
+}
+
 nav img {
-  height: 21px;
+  height: 20px;
   padding-left: 50px;
+  padding-top: 4px;
 }

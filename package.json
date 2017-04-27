@@ -1,0 +1,26 @@
+{
+  "name": "nexmo-ng-sms",
+  "version": "0.0.1",
+  "description": "Nexmo SMS Reader Tutorial",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "pusher": "^1.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexLakatos/nexmo-ng-sms.git"
+  },
+  "author": "Alex Lakatos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexLakatos/nexmo-ng-sms/issues"
+  },
+  "homepage": "https://github.com/AlexLakatos/nexmo-ng-sms#readme"
+}
