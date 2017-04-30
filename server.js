@@ -37,6 +37,7 @@ function handleParams(params, res) {
             timestamp: params['message-timestamp']
         };
 
+        pusher.trigger('sms-reader', 'new-sms', {"data": incomingData});
         res.send(incomingData);
     }
     res.status(200).end();
