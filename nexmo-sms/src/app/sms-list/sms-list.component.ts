@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as Pusher from 'pusher-js';
 
 @Component({
   selector: 'app-sms-list',
