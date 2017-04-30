@@ -5,6 +5,16 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
+var Pusher = require('pusher');
+
+var pusher = new Pusher({
+  appId: '333656',
+  key: '2f5ebb3dedf41a3413d2',
+  secret: '812d31541025ef0d95b4',
+  cluster: 'eu',
+  encrypted: true
+});
+
 const server = app.listen(3000, () => {
     console.log('Express server listening on port %d in %s mode', server.address().port, app.settings.env);
 });
